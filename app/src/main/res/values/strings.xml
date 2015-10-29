@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="discount">50% Off</string>
+    <string name="description">Nexus 5 16gb</string>
+    <string name="cost">Rs xxxx</string>
+</resources>

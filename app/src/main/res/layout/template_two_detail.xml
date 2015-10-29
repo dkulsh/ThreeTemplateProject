@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/template_two_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/item_discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/discount" />
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"/>
+
+    <TextView
+        android:id="@+id/item_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cost"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontal_scroll"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/horizontal_layout"
+        android:orientation="horizontal"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbars="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </LinearLayout>
+
+</HorizontalScrollView>
